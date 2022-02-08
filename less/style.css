@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+nav {
+  width: 99%;
+  height: 90px;
+  background-color: #7b0738;
+  position: fixed;
+  margin-top: -22px;
+  z-index: 1;
+}
+nav .logo {
+  height: 100%;
+  margin-top: auto;
+}
+nav .logo img {
+  height: 90%;
+}
+nav .navigation {
+  align-items: end;
+  text-align: right;
+  font-size: 20px;
+  word-spacing: 20px;
+  margin-top: -60px;
+}
+nav .navigation a {
+  color: white;
+  text-decoration: none;
+}
+html {
+  width: 100%;
+  background-color: #bc2b62;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Roboto, serif;
+}
+#wrapper {
+  width: 100%;
+}
+#wrapper .splash {
+  margin-bottom: -50px;
+  height: 844px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+}
+#wrapper .splash .splashContent {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgba(89, 72, 150, 0.65);
+  margin-bottom: -500px;
+}
+#wrapper .splash h3,
+#wrapper .splash p {
+  margin-bottom: 400px;
+  text-align: center;
+}
+.full {
+  min-height: 350px;
+  background-color: #aaabfd;
+  color: #171756;
+  overflow: hidden;
+}
+.full p {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  top: 80px;
+}
+.content {
+  min-height: 100px;
+  background-color: #594896;
+  color: #171756;
+}
+.content .first-row,
+.content .second-row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.content .second-row {
+  padding-bottom: 10px;
+}
+.content .box {
+  width: 450px;
+  height: 30%;
+  border-radius: 8px;
+  background-color: #aaabfd;
+  color: #171756;
+  margin: auto;
+  align-items: flex-end;
+}
+.content .box .imgBox {
+  border: 3px white solid;
+  border-radius: 10px;
+  height: 150px;
+}
+.content .box .imgBox .picture {
+  clip-path: polygon(0 0, 100% 0, 100% 150px, 0 150px);
+}
+footer {
+  width: 100%;
+  min-height: 60px;
+}
+footer .links {
+  height: 50px;
+  width: 100%;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+}
+footer .copyright {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
